@@ -46,11 +46,13 @@ function asingSuitAndNumbers() {
   iconTop.style.color = suit === "♦" || suit === "♥" ? "red" : "black";
   iconBottom.style.color = suit === "♦" || suit === "♥" ? "red" : "black";
 }
+
 console.log(asingSuitAndNumbers());
+
 const refreshBtn = document.getElementById("btnRefresh");
 
 function handleClick() {
-  window.location.reload();
+  asingSuitAndNumbers();
 }
 
 refreshBtn.addEventListener("click", handleClick);

@@ -45,11 +45,10 @@ img {
   color: white;
   font-size: 75px;
   background-color: red;
-  justify-content: center;
   margin-left: 875px;
   margin-right: 875px;
   border-radius: 75px;
-  margin-top: 2%;
+  margin-bottom: 2%;
   border: solid black 2px;
 }
 a {

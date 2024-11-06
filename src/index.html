@@ -16,6 +16,7 @@
   <meta http-equiv="refresh" content="10" />
   <body>
     <div class="container-fluid text-center">
+      <div id="timer"></div>
       <div id="newCard" class="card container col-4 mt-5">
         <dic id="iconTop" class="icon-Top"> ♦ </dic>
         <div id="numberValue" class="number">
@@ -25,9 +26,9 @@
       </div>
       <button id="btnRefresh" type="button">
         <img
-          src="https://cdn3.iconfinder.com/data/icons/entertainment-ultra/60/028_-_Poker-256.png" ></img><strong> Refresh </strong>
+          src="https://cdn3.iconfinder.com/data/icons/entertainment-ultra/60/028_-_Poker-256.png" alt="poker coin" ></img><strong> Refresh </strong>
       </button>
-      <div id="timer"></div>
+      
       <script type="text/javascript">
         var timeleft = 10;
         var downloadTimer = setInterval(function(){
@@ -35,6 +36,7 @@
         document.getElementById("timer").textContent = timeleft;
         if(timeleft <= 0)
             clearInterval(downloadTimer);
+          
         },1000);
     </script>
       <div class="fixed-bottom p-4">
