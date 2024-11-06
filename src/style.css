@@ -1,1 +1,57 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.container {
+  display: flex;
+  background-color: white;
+  height: 500px;
+  width: 350px;
+  border-radius: 25px;
+  border: 2px solid black;
+  position: relative;
+  text-align: center;
+}
+.number {
+  font-size: 150px;
+  font-family: Apple Chancery, cursive;
+  padding-top: 100px;
+}
+.icon-Top {
+  font-size: 85px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.icon-Bottom {
+  font-size: 85px;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  transform: rotate(180deg);
+}
+button {
+  margin-top: 2%;
+  width: 100px;
+  height: 50px;
+  border: none;
+  position: relative;
+  background-color: green;
+}
+img {
+  height: 100px;
+}
+#timer {
+  color: white;
+  font-size: 75px;
+  background-color: red;
+  justify-content: center;
+  margin-left: 875px;
+  margin-right: 875px;
+  border-radius: 75px;
+  margin-top: 2%;
+  border: solid black 2px;
+}
+a {
+  color: white;
+}
